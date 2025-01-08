@@ -3,18 +3,19 @@
 Here is some legacy code that works but is hard to understand and modify.
 
 Refactor it incrementally using these guidelines:
-1. **Express your intent**
-2. **Avoid duplication**
-3. **Use meaningful names**
+1. **Tests first**
+2. **Express your intent**
+3. **Avoid duplication**
+4. **Use meaningful names**
     - Unique enough to be searchable
     - Follow conventions
     - Pronounceable
     - Verbs for functions, nouns for classes
-4. **Functions**
+5. **Functions**
     - Do one thing!
     - Have no side effects.
     - Are small. Ideally, up to 4 lines of code. Not exceeding 2 levels of indentation. Minimize the number of arguments.
-5. **Classes**
+6. **Classes**
     - Have one responsibility!
     - Few instance variables, but all of them used a lot.
 
